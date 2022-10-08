@@ -52,10 +52,9 @@
         /></a>
         <h1><strong>Lawrence Tam</strong></h1>
         <h1>
-          Hi, I'm a <b>software engineer</b> in the Bay Area<br />
-          with experience in JavaScript/Node.js, React, Go, PostgresSQL,
+          Hi 👋, I'm a <b>software engineer</b> in the Bay Area<br />
+          with experience in JavaScript/Node.js, React, Go, Python, PostgresSQL,
           MongoDB, and AWS.
-          <br />
         </h1>
         <h1></h1>
       </div>
@@ -65,41 +64,46 @@
     <div id="main">
       <!-- One -->
       <section id="one">
-        <header class="major">
-          <img src="images/conifer-logo.png" width="400" />
+        <header class="major align-center">
+          <a href="http://conifer-test.github.io">
+            <img src="images/conifer-logo.png" width="400" />
+          </a>
         </header>
+        <h3>
+          An open-source tool that simplifies
+          <span class="text-secondary">parallelizing</span>
+          Cypress tests on AWS infrastructure for
+          <span class="text-secondary">local development</span>.
+        </h3>
+        <p>
+          Conifer automates the provisioning of a parallelized testing
+          infrastructure and the deployment of the user's application onto this
+          infrastructure. The user can then execute their test suite across the
+          multiple nodes of the parallelized infrastructure to dramatically
+          reduce the amount of time it takes to test their application.
+        </p>
+        <p>
+          Conifer was built with JavaScript/Node.js, React, Express,
+          TailwindCSS, and deploys the following AWS infrastructure (ECS, EC2,
+          S3, DynamoDB). It also comes with a user friendly dashboard, enabling
+          real-time monitoring of the test suite run, with info such as the
+          status of each individual test and the time it takes to run. The user
+          will also have access to the videos of the tests after each test is
+          completed.
+        </p>
+        <div class="align-center">
+          <a href="http://conifer-test.github.io" class="button" id="case-study"
+            >Read the Case Study</a
+          >
+        </div>
         <br />
-        <p>
-          I recently built Conifer, an open-source framework for parallelizing
-          Cypress tests on AWS infrastructure. Conifer automates the
-          provisioning of a parallelized testing infrastructure and the
-          deployment of the user's application onto this infrastructure. The
-          user can then execute their test suite across the multiple nodes of
-          the parallelized infrastructure to dramatically reduce the amount of
-          time it takes to test their application.
-        </p>
-        <img src="images/conifer_init.gif" />
-        <p>
-          View the live dashboard, which enables real-time monitoring of the
-          test suite run, with info such as the status of each individual test
-          and the time it takes to run. The user will also have access to the
-          videos of the tests after each test is completed.
-        </p>
-        <img src="images/conifer_run2x.gif" height="500" />
-        <ul class="actions">
-          <li>
-            <a href="http://conifer-test.github.io" class="button"
-              >Read the Case Study</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.lawrencetam.dev/docs/Lawrence_Tam_Resume_21-09-2022.pdf"
-              class="button"
-              >See Resume</a
-            >
-          </li>
-        </ul>
+
+        <a href="http://conifer-test.github.io">
+          <img src="images/conifer_init.gif" class="image center" />
+        </a>
+        <a href="http://conifer-test.github.io">
+          <img src="images/conifer_run2x.gif" class="image center" />
+        </a>
       </section>
 
       <!-- Two -->
@@ -135,22 +139,51 @@
               A database-backed e-commerce app (React, Redux, MongoDB, Node.js)
             </p>
           </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/todo.png" class="image fit thumb"
+              ><img src="images/thumbs/todo.png" alt=""
+            /></a>
+            <h3>Todo App</h3>
+            <p>
+              A todolist tracking SPA built on Express and SQLite following the
+              MVC pattern
+            </p>
+          </article>
         </div>
       </section>
 
-      <!-- <section id="four">
+      <section id="four">
         <header>
           <h2>About Me</h2>
         </header>
-        <p>
+        <p class="normal">
           I am a Bay Area native with a past life as a civil engineer (even got
-          my PE!). I previously worked for local government improving
+          my PE!). I'm the co-creator of Conifer, an open-source tool to
+          simplify parallelizing Cypress tests for local development.
         </p>
-        <p>
-          In my off time, I enjoy bouldering at my local climbing gym and at
-          Castle Rock. During the winter, I enjoy hitting the slopes in Tahoe.
+        <p class="normal">
+          I've always had a passion for building things- whether it be physical
+          infrastructure or digital infrastructure. Nowadays, I enjoy tinkering
+          with the digital side of things and am currently learning TypeScript.
         </p>
-      </section> -->
+        <p class="normal">In my off time, I'll be:</p>
+        <ul>
+          <li>bouldering (indoors & outdoors), snowboarding 🧗‍♀️</li>
+          <li>
+            gaming, both tabletop and digital (current playing Gloomhaven!) 🎲
+            🎮
+          </li>
+          <li>trying out new cuisines 🍽️</li>
+          <li>backpacking, hiking 🏕</li>
+        </ul>
+        <br />
+        <p class="normal">My current bucket list includes:</p>
+        <ul>
+          <li>backpacking Yosemite 🏞️ (yeah, I know)</li>
+          <li>eating all the Creole food in New Orleans 🦐</li>
+          <li>snowboarding in Hokkaido 🇯🇵</li>
+        </ul>
+      </section>
 
       <!-- Three -->
       <!-- <section id="three">
@@ -535,7 +568,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
         <ul class="icons">
           <li>
             <a
-              href="https://www.lawrencetam.dev/docs/Lawrence_Tam_Resume_21-09-2022.pdf"
+              href="https://www.lawrencetam.dev/docs/Lawrence_Tam_Resume_07-10-2022.pdf"
               class="icon fas fa-file-alt"
               ><span class="label">Resume</span></a
             >
